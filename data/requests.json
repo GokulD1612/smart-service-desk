@@ -1,0 +1,16 @@
+[
+    {
+        "request_id": "SR101",
+        "employee_name": "Gokul Ganesh",
+        "issue": "Laptop is not starting",
+        "priority": "HIGH",
+        "status": "RESOLVED"
+    },
+    {
+        "request_id": "SR102",
+        "employee_name": "Karthik",
+        "issue": "Forgot laptop password",
+        "priority": "MEDIUM",
+        "status": "OPEN"
+    }
+]
