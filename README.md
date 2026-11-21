@@ -38,13 +38,19 @@ python main.py
 3. Search Request
 4. Resolve Request
 5. Exit
-6. 
+
 ==============================
+
 Enter your choice: 1
+
 Enter Request ID: SR101
+
 Enter Employee Name: Gokul Ganesh
+
 Enter Issue: Laptop is not starting
+
 Enter Priority (LOW/MEDIUM/HIGH): HIGH
+
 Service Request created successfully.
 
 Enter your choice: 2
