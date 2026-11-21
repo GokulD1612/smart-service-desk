@@ -17,9 +17,13 @@ Smart Service Desk is a command-line application that lets an organization log, 
 
 ## Design Principles Applied
 **Single Responsibility** : Each layer has exactly one reason to change — domain = business rules, infrastructure = storage format, application = workflow, presentation = console I/O 
+
 **Dependency Inversion** : `RequestService` depends only on an injected object exposing `load_all()`/`save_all()` — never on `json` or a file path directly 
+
 **Encapsulation** : `ServiceRequest.status` can only change via `resolve()`; nothing outside the class sets it directly
+
 **Open/Closed** : Swapping storage (e.g. to SQLite) means writing one new repository class — zero changes to domain or application code
+
 **Basic DDD** : Code is organized by business layer (`domain/`, `application/`, `infrastructure/`), not by technical file type
 
 
@@ -34,6 +38,7 @@ python main.py
 3. Search Request
 4. Resolve Request
 5. Exit
+6. 
 ==============================
 Enter your choice: 1
 Enter Request ID: SR101
